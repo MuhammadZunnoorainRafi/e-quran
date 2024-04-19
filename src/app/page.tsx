@@ -1,5 +1,9 @@
-import Image from 'next/image';
-
 export default function Home() {
-  return <div className="bg-red-400 text-white">hello world</div>;
+  return (
+    <div>
+      <div className="min-h-screen">
+        <div style={{ backgroundImage: `url('/hero-img.jpg')` }}></div>
+      </div>
+    </div>
+  );
 }
