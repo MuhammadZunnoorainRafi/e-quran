@@ -33,7 +33,7 @@ const NavLinks = [
 function Navbar() {
   const pathName = usePathname();
   return (
-    <div>
+    <div className="fixed top-0 right-0 z-20 left-0 bg-white shadow-md">
       <div className="px-12 md:px-44 py-2 text-xs font-[500] tracking-wider flex items-center justify-center md:justify-start flex-col md:flex-row md:gap-2 bg-blue text-slate-100">
         <div className="flex items-center  justify-center gap-1">
           <MdPhone size={17} />

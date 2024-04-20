@@ -22,16 +22,44 @@ export const points = [
 export const cardData = [
   {
     id: 1,
-    img: '../../public/card-img-1.png',
+    img: '/card-img-1.png',
     title: 'Noorani Qaida Course',
+    content:
+      'Gives You an Understanding of How to Spell the Arabic Letters And Make Sounds.It is the Ultimate Course for Beginners or People Who Want to Have Strong Grip on Reading With Tajweed',
+  },
+  {
+    id: 2,
+    img: '/card-img-2.png',
+    title: 'Quran Reading Course',
+    content:
+      'The students of the Quran Course can Learn how to Recite Quran and Related Courses of Tajweed, Arabic and Quran Online at the comfort of their Home with a flexible Schedule According to Their Availablity.',
+  },
+  {
+    id: 3,
+    img: '/card-img-3.png',
+    title: 'Dua Lesson',
     content:
       'This Course Leads to Learning the Basic and Detailed Duas That Are to be Used in Daily Life Effectively',
   },
   {
-    id: 2,
-    img: '../../public/card-img-2.png',
-    title: 'Quran Reading Course',
+    id: 4,
+    img: '/card-img-4.png',
+    title: 'Namaz Training Course',
     content:
-      'The students of the Quran Course can Learn how to Recite Quran and Related Courses of Tajweed, Arabic and Quran Online at the comfort of their Home with a flexible Schedule According to Their Availablity.',
+      'Namaz is the Second Important Pillar of Islam, This Is Very Important Phase of Kids To Indulge in this Namaz Course. During Namaz Lesson All the Guidelines Is Given In Understanding the Steps of Namaz And Ensuring that Kids Follow the Right Actions',
+  },
+  {
+    id: 5,
+    img: '/card-img-5.png',
+    title: 'Islamic Courses',
+    content:
+      'A Series of Islamic Courses To Help You Better Understand Deen and The Right Path For All of Us',
+  },
+  {
+    id: 6,
+    img: '/card-img-6.png',
+    title: 'Monthly Test Sessions',
+    content:
+      'Learning and Understanding is an Important Part of Education. In This Way, We Ensure to Take Monthly Random Question/Answers Sessions to be Able to Review the Performance of Kids and This Helps is Getting a Better Report of Overall Teachers and Student Progress.',
   },
 ];
