@@ -34,7 +34,7 @@ function Navbar() {
   const pathName = usePathname();
   return (
     <div>
-      <div className="px-12 md:px-44 py-2 text-xs font-[500] tracking-wider flex items-center md:justify-center justify-start flex-col md:flex-row md:gap-2 bg-[#019cdf] text-slate-100">
+      <div className="px-12 md:px-44 py-2 text-xs font-[500] tracking-wider flex items-center justify-center md:justify-start flex-col md:flex-row md:gap-2 bg-blue text-slate-100">
         <div className="flex items-center  justify-center gap-1">
           <MdPhone size={17} />
           <p>+923216035703</p>
@@ -58,7 +58,9 @@ function Navbar() {
           {NavLinks.map((val, ind) => (
             <Link
               className={`${
-                pathName === val.href ? 'text-blue-500' : 'text-slate-500'
+                pathName === val.href
+                  ? 'text-blue-500'
+                  : 'text-slate-500 hover:text-slate-400 duration-200'
               }`}
               key={ind}
               href={val.href}
