@@ -63,3 +63,12 @@ export const cardData = [
       'Learning and Understanding is an Important Part of Education. In This Way, We Ensure to Take Monthly Random Question/Answers Sessions to be Able to Review the Performance of Kids and This Helps is Getting a Better Report of Overall Teachers and Student Progress.',
   },
 ];
+
+export const aboutBullets = [
+  'We Provide 3-Day Free Trials',
+  'No Registration Fee',
+  'No Advance Payments',
+  'Each Student Gets 1-1 Session With Quran Teacher',
+  'We Set the Time Suitable For You',
+  'We Provide 24/7 Customer Support',
+];
