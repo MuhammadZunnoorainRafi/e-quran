@@ -69,13 +69,15 @@
 @layer base {
   * {
     @apply border-border;
+    scroll-behavior: smooth;
+    scroll-padding-top: 140px;
   }
   body {
     @apply bg-background text-foreground;
   }
 }
 
-#hero {
+#home {
   background-image: url('../../public/hero-img.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -99,10 +101,7 @@
   background-position: center;
   background-blend-mode: normal;
   background-image: url(http://equranteaching.com/wp-content/uploads/2021/01/painting_service_16.png);
-  padding-top: 16px;
-  padding-right: 40px;
-  padding-bottom: 16px;
-  padding-left: 40px;
+  image-rendering: optimizeSpeed;
 }
 
 .cardWithShadow {
@@ -117,4 +116,12 @@
     rgba(0, 18, 42, 0.03) 57%,
     rgba(0, 18, 42, 0) 100%
   );
+}
+
+#contactUs {
+  background-image: url('http://equranteaching.com/wp-content/uploads/2021/02/faseeh-fawaz-Dt1vFAPZmUI-unsplash-1.jpg');
+  background-repeat: no-repeat;
+  /* object-fit: cover; */
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-size: cover;
 }

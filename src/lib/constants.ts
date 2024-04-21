@@ -1,3 +1,22 @@
+export const NavLinks = [
+  {
+    name: 'Home',
+    href: '#home',
+  },
+  {
+    name: 'About',
+    href: '#about',
+  },
+  {
+    name: 'FAQ',
+    href: '#faq',
+  },
+  {
+    name: 'Contact',
+    href: '#contactUs',
+  },
+];
+
 export const points = [
   {
     text: 'We have been Providing Our Services Globally for Last 2 Years',
@@ -71,4 +90,51 @@ export const aboutBullets = [
   'Each Student Gets 1-1 Session With Quran Teacher',
   'We Set the Time Suitable For You',
   'We Provide 24/7 Customer Support',
+];
+
+export const carouselItem = [
+  '/kalima-1.jpeg',
+  '/kalima-2.jpeg',
+  '/kalima-3.jpeg',
+  '/kalima-4.jpeg',
+  '/kalima-5.jpeg',
+  '/kalima-6.jpeg',
+];
+
+export const accordionData = [
+  {
+    title: 'What is the Duration of one Class?',
+    content:
+      'We always have a class of 30 min duration for an individual child. However, if more than one child is studying. We extend the duration per session by +30 minutes for each child',
+  },
+  {
+    title: 'Is the Class Individual or Session?',
+    content:
+      'We believe special treatment and time is beneficial for effective learning for each student. Therefore, Every student gets an individual session of 30 minutes with our well trained teachers.',
+  },
+  {
+    title: 'How will you manage timezone issue?',
+    content: `We are always happy to discuss free time for your children and set up a time schedule suitable for both of us.
+
+      We are always happy to make any amendments in case you are willing to change the time.`,
+  },
+  {
+    title: 'How many teachers will be teaching my kids?',
+    content: `We believe interaction with one teacher throughout his/her session is more effective.
+
+      Therefore, Each student is assigned a teacher throughout his/her course.`,
+  },
+  {
+    title: 'When will be the Day off for Classes?',
+    content: `Classes are Taken 5 Times a week
+
+    Monday to Friday
+    
+    Weekend Saturday Sunday
+    
+    If Any Classes Get Missed By the Teacher or Student Side
+    It’s Manageable During the Weekend
+    
+    According to The Availability of Both Teacher and Student`,
+  },
 ];
