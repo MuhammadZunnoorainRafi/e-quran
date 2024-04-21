@@ -42,7 +42,7 @@ function Navbar() {
         </div>
         <div className="hidden md:flex items-center font-semibold text-[15px]  justify-center gap-[22px]">
           {NavLinks.map((val, ind) => (
-            <Link
+            <a
               className={`${
                 pathName === val.href
                   ? 'text-blue-500'
@@ -52,7 +52,7 @@ function Navbar() {
               href={val.href}
             >
               {val.name}
-            </Link>
+            </a>
           ))}
         </div>
         <div className=" md:hidden mr-2 ">
