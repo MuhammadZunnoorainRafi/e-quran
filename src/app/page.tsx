@@ -65,9 +65,9 @@ export default function Home() {
             <h1>Welcome to</h1>
             <div>
               <span className="text-blue">Al-Rehan </span>
-              <span>Online Islamic</span>
+              <span>Online </span>
             </div>
-            <h1>Academy</h1>
+            <h1>Islamic Academy</h1>
           </div>
           <Link
             href="#contactUs"
@@ -124,30 +124,31 @@ export default function Home() {
               data-aos-easing="ease-in-out"
               data-aos-anchor-placement="top-center"
               key={val.id}
-              className="p-4 md:p-8 flex md:flex-row flex-col text-center md:text-left items-center justify-center md:items-start md:justify-start gap-4  md:gap-7  relative transition duration-300 hover:scale-[1.05] md:hover:translate-x-3 z-2 cardWithShadow"
             >
-              <div className="w-20 h-20 md:w-[325px] md:h-[70px] relative md:flex-[0.32] ">
-                <Image
-                  src={val.img}
-                  alt="card image error"
-                  className="object-cover"
-                  fill
-                />
-              </div>
-              <div className="space-y-2 tracking-wide md:flex-[1.68]">
-                <h1 className="font-semibold">{val.title}</h1>
-                <p className="text-sm text-slate-600">{val.content}</p>
-                <Link
-                  href={'#contactUs'}
-                  className="group flex items-center justify-center md:justify-start "
-                >
-                  <p className="text-blue text-sm font-semibold">
-                    GET AN ONLINE ESTIMATE
-                  </p>
-                  <div className=" -ml-2 group-hover:ml-2 duration-200 opacity-0 group-hover:opacity-100">
-                    <MdKeyboardDoubleArrowRight size={13} color="#019cdf" />
-                  </div>
-                </Link>
+              <div className="p-4 md:p-8 flex md:flex-row flex-col text-center md:text-left items-center justify-center md:items-start md:justify-start gap-4  md:gap-7  relative transition duration-300 md:hover:translate-x-3 cardWithShadow">
+                <div className="w-20 h-20 md:w-[325px] md:h-[70px] relative md:flex-[0.32] ">
+                  <Image
+                    src={val.img}
+                    alt="card image error"
+                    className="object-cover"
+                    fill
+                  />
+                </div>
+                <div className="space-y-2 tracking-wide md:flex-[1.68]">
+                  <h1 className="font-semibold">{val.title}</h1>
+                  <p className="text-sm text-slate-600">{val.content}</p>
+                  <Link
+                    href={'#contactUs'}
+                    className="group flex items-center justify-center md:justify-start "
+                  >
+                    <p className="text-blue text-sm font-semibold">
+                      GET AN ONLINE ESTIMATE
+                    </p>
+                    <div className=" -ml-2 group-hover:ml-2 duration-200 opacity-0 group-hover:opacity-100">
+                      <MdKeyboardDoubleArrowRight size={13} color="#019cdf" />
+                    </div>
+                  </Link>
+                </div>
               </div>
             </div>
           ))}
@@ -165,9 +166,9 @@ export default function Home() {
             data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-anchor-placement="top-center"
-            className="h-52 w-52 md:h-[312px] md:w-[312px] relative md:ml-20 "
+            className="h-52 w-52 rounded-full overflow-hidden md:h-[312px] md:w-[312px] relative md:ml-20 "
           >
-            <Image src="/istanbul.png" fill alt="image error" />
+            <Image src="/rehan.jpg" fill alt="image error" />
           </div>
         </div>
         <div
