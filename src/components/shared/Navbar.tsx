@@ -23,15 +23,15 @@ function Navbar() {
       <div className="px-12 md:px-44 py-2 text-xs font-[500] tracking-wider flex items-center justify-center md:justify-start flex-col md:flex-row md:gap-2 bg-blue text-slate-100">
         <div className="flex items-center  justify-center gap-1">
           <MdPhone size={17} />
-          <p>+923216035703</p>
+          <p>+923000676029</p>
         </div>
         <div className="flex items-center justify-center gap-1">
           <MdEmail size={17} />
-          <p>abcdef@gmail.com</p>
+          <p>rehanaslam000111@gmail.com</p>
         </div>
       </div>
       <div className="px-2 md:px-10 flex items-center justify-between">
-        <div className="relative w-14 h-14 md:w-24 md:h-24 ">
+        <div className="relative w-10 my-1 p-1 rounded-full overflow-hidden h-10 md:w-24 md:h-24 ">
           <Image
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src="/logo.jpg"

@@ -59,29 +59,30 @@ export default function Home() {
           data-aos-duration="800"
           data-aos-easing="ease-in-out"
           data-aos-anchor-placement="top-center"
-          className="absolute top-14 md:top-24 left-10 md:left-32 text-white "
+          className="absolute z-[2] top-14 md:top-24 left-10 md:left-32 text-white "
         >
           <div className="font-[600] mb-8 leading-[1.2] text-3xl md:text-6xl">
             <h1>Welcome to</h1>
             <div>
-              <span className="text-blue">EQuran </span>
-              <span>Teaching</span>
+              <span className="text-blue">Al-Rehan </span>
+              <span>Online Islamic</span>
             </div>
             <h1>Academy</h1>
           </div>
-          <button
+          <Link
+            href="#contactUs"
             id="btn-img"
-            className="group px-7 md:px-[40px] py-[16px] flex cursor-pointer items-center justify-center mb-6"
+            className="group w-fit px-7 z-[5] md:px-[40px] py-[16px] flex cursor-pointer items-center justify-center mb-6"
           >
-            <p> GET 3-DAY FREE TRIAL</p>
+            <p> GET 3-DAYS FREE TRIAL</p>
             <div className=" -ml-2 group-hover:ml-2 duration-200 opacity-0 group-hover:opacity-100">
               <MdArrowRightAlt size={20} />
             </div>
-          </button>
+          </Link>
           <div>
             <h1 className="text-lg md:text-2xl font-bold ">
               Or <span className="text-[#7cce30]">Whatsapp</span> :
-              <span className="font-medium"> (+92)3216035703</span>
+              <span className="font-medium"> (+92)3000676029</span>
             </h1>
           </div>
         </div>
@@ -123,7 +124,7 @@ export default function Home() {
               data-aos-easing="ease-in-out"
               data-aos-anchor-placement="top-center"
               key={val.id}
-              className="p-4 md:p-8 flex md:flex-row flex-col text-center md:text-left items-center justify-center md:items-start md:justify-start gap-4  md:gap-7 hover:relative transition duration-300 hover:scale-[1.05] md:hover:translate-x-3 z-2 cardWithShadow"
+              className="p-4 md:p-8 flex md:flex-row flex-col text-center md:text-left items-center justify-center md:items-start md:justify-start gap-4  md:gap-7  relative transition duration-300 hover:scale-[1.05] md:hover:translate-x-3 z-2 cardWithShadow"
             >
               <div className="w-20 h-20 md:w-[325px] md:h-[70px] relative md:flex-[0.32] ">
                 <Image
@@ -367,13 +368,13 @@ export default function Home() {
         <div>
           <h1 className="text-lg md:text-2xl font-bold text-white mt-7">
             <span className="text-[#7cce30]">Whatsapp</span> :
-            <span className="font-medium"> (+92)3216035703</span>
+            <span className="font-medium"> (+92)3000676029</span>
           </h1>
         </div>
         <div>
           <h1 className="text-lg md:text-2xl font-bold text-white ">
             <span className="text-blue">Email</span> :
-            <span className="font-medium"> abcde@gmail.com</span>
+            <span className="font-medium"> rehanaslam000111@gmail.com</span>
           </h1>
         </div>
       </div>
