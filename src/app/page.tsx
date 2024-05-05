@@ -155,7 +155,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Section About us  testing*/}
+      {/* Section About us  */}
       <div
         id="about"
         className="flex md:flex-row flex-col items-center justify-center md:items-start md:justify-start gap-2 max-w-7xl mx-auto"
